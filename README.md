@@ -1,21 +1,14 @@
-Project Setup     
-* Added libs for KeyChainWrapper.       
-* Added CoreData model for Person having  attributes > token, name, phone_number        
+# Settings
 
-Login flow implementation     
-* Implemented SignIn and SignUp screens.      
-* Used KeyChainWrapper to store and retrieve username, password, token from the KeyChain.      
-* A new user can register using the SignUp Screen.        
-* Old users able to login using SignIn Screen.         
-          
-Phone Book Application       
-* Implemented UI with tableview to display the contact information.        
-* Implemented CRUD functionality for inserting, editing, retrieving, and deleting the Person objects
-from Core Data. Built UI for respective purposes.        
+* Created a settings app having different sections using UICollectionView & Diffable data source
+* Added support to expand/collapse each section, 
+* Each section has a header, Tapping on the header expands/collapses the entire section
 
-Show data specific to logged in user         
-* Used NSPredicate to fetch Person objects based on the token of the logged in user.           
-* Used NSSortDescriptor to fetch the objects in ascending order first based on givenName and then
-based on familyName.          
+Added support to modify the data      
+ * The user can delete any item in a section or an entire section     
+ * The user can add data to any section or add a new section     
 
-UI Video: https://drive.google.com/file/d/1l7CkTr3ZZuFRo7UVykCzOdvEGpjgqnbH/view?usp=share_link
+Added search bar on top     
+ * Added search support, the user can type into the search bar and only items that match the search will be visible    
+
+UI video: https://drive.google.com/file/d/1BBft_aRs2quBEAlft2g8KVhOFAHLNA4T/view?usp=share_link
