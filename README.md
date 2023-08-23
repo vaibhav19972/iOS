@@ -18,4 +18,4 @@ Show data specific to logged in user
 * Used NSSortDescriptor to fetch the objects in ascending order first based on givenName and then
 based on familyName.          
 
-UI Video: https://drive.google.com/file/d/1l7CkTr3ZZuFRo7UVykCzOdvEGpjgqnbH/view?usp=share_link
+UI Video: https://drive.google.com/file/d/1yUqXRa-ob_9Js4ZroBr0eklA-AXM0tLb/
