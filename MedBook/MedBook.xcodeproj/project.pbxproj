@@ -28,6 +28,9 @@
 		8C6D7B452ACAC28D00694E88 /* KeychainItemAccessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6D7B432ACAC28D00694E88 /* KeychainItemAccessibility.swift */; };
 		8C6D7B462ACAC28D00694E88 /* KeychainWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6D7B442ACAC28D00694E88 /* KeychainWrapper.swift */; };
 		8C6D7B492ACAC9EA00694E88 /* SecretViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6D7B482ACAC9EA00694E88 /* SecretViewController.swift */; };
+		8C709D032AD3E63F0028B04E /* BookListingAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C709D022AD3E63F0028B04E /* BookListingAPI.swift */; };
+		8C709D052AD3FA8D0028B04E /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C709D042AD3FA8D0028B04E /* CustomCell.swift */; };
+		8C709D072AD408D80028B04E /* BookDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C709D062AD408D80028B04E /* BookDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +57,9 @@
 		8C6D7B432ACAC28D00694E88 /* KeychainItemAccessibility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainItemAccessibility.swift; sourceTree = "<group>"; };
 		8C6D7B442ACAC28D00694E88 /* KeychainWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainWrapper.swift; sourceTree = "<group>"; };
 		8C6D7B482ACAC9EA00694E88 /* SecretViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecretViewController.swift; sourceTree = "<group>"; };
+		8C709D022AD3E63F0028B04E /* BookListingAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookListingAPI.swift; sourceTree = "<group>"; };
+		8C709D042AD3FA8D0028B04E /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		8C709D062AD408D80028B04E /* BookDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +99,7 @@
 				8C6D7B312ACA9BC700694E88 /* CustomViews */,
 				8C6D7B242ACA8FC100694E88 /* RootCoordinator.swift */,
 				8C6D7B3B2ACA9D6900694E88 /* CountryDataAPI.swift */,
+				8C709D022AD3E63F0028B04E /* BookListingAPI.swift */,
 				8C6D7B3F2ACAC0E500694E88 /* Authentication.swift */,
 			);
 			path = MedBook;
@@ -128,6 +135,7 @@
 				8C6D7B322ACA9BE700694E88 /* Button.swift */,
 				8C6D7B392ACA9D4A00694E88 /* checkBoxView.swift */,
 				8C6D7B3D2ACAA2C100694E88 /* BackgroundView.swift */,
+				8C709D042AD3FA8D0028B04E /* CustomCell.swift */,
 			);
 			path = CustomViews;
 			sourceTree = "<group>";
@@ -135,10 +143,11 @@
 		8C6D7B342ACA9C4800694E88 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				8C6D7B482ACAC9EA00694E88 /* SecretViewController.swift */,
 				8C6D7B132ACA8DB000694E88 /* LandingViewController.swift */,
 				8C6D7B372ACA9CA900694E88 /* LoginViewController.swift */,
 				8C6D7B352ACA9C9700694E88 /* SignUpViewController.swift */,
+				8C6D7B482ACAC9EA00694E88 /* SecretViewController.swift */,
+				8C709D062AD408D80028B04E /* BookDetailViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -227,11 +236,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C709D032AD3E63F0028B04E /* BookListingAPI.swift in Sources */,
 				8C6D7B3E2ACAA2C100694E88 /* BackgroundView.swift in Sources */,
+				8C709D072AD408D80028B04E /* BookDetailViewController.swift in Sources */,
 				8C6D7B382ACA9CA900694E88 /* LoginViewController.swift in Sources */,
 				8C6D7B362ACA9C9700694E88 /* SignUpViewController.swift in Sources */,
 				8C6D7B332ACA9BE700694E88 /* Button.swift in Sources */,
 				8C6D7B252ACA8FC100694E88 /* RootCoordinator.swift in Sources */,
+				8C709D052AD3FA8D0028B04E /* CustomCell.swift in Sources */,
 				8C6D7B452ACAC28D00694E88 /* KeychainItemAccessibility.swift in Sources */,
 				8C6D7B142ACA8DB000694E88 /* LandingViewController.swift in Sources */,
 				8C6D7B102ACA8DB000694E88 /* AppDelegate.swift in Sources */,

@@ -18,7 +18,7 @@ struct APIResponse: Codable {
 class CountryDataAPI {
     // Singleton instance
     static let shared = CountryDataAPI()
-    
+
     // API endpoint URL
     let url = "https://api.first.org/data/v1/countries"
     
@@ -53,7 +53,6 @@ class CountryDataAPI {
                 print("#API logs Error while decoding JSON data")
             }
         }
-        
         // Start the data task
         task.resume()
     }
